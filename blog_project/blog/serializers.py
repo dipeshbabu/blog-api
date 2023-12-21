@@ -16,7 +16,7 @@ class BlogSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Blog
-        fields = ["id", "title", "description", "date", "category"]
+        fields = ["id", "title", "description", "category"]
 
     def validate_title(self, value):
         """

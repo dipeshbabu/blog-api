@@ -14,7 +14,6 @@ class Blog(models.Model):
 
     title = models.CharField(max_length=255)
     description = models.TextField()
-    date = models.DateField()
     category = models.CharField(max_length=80)
 
     def __str__(self):
