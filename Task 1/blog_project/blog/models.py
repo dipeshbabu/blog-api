@@ -8,7 +8,6 @@ class Blog(models.Model):
     Attributes:
         title (str): The title of the blog post.
         description (str): The description of the blog post.
-        date (date): The date of the blog post.
         category (str): The category of the blog post.
     """
 
